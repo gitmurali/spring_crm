@@ -11,6 +11,7 @@ import java.sql.SQLException;
  */
 public class DbTestServlet extends javax.servlet.http.HttpServlet {
 
+  @Override
   protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws IOException {
     PrintWriter out = response.getWriter();
     String pass = "root";

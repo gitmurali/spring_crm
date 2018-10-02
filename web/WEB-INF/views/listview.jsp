@@ -26,13 +26,13 @@
     </tr>
     </thead>
     <tbody>
-        <c:forEach var="tempCustomer" items="${customers}">
-            <tr>
-                <td>${tempCustomer.firstName}</td>
-                <td>${tempCustomer.lastName}</td>
-                <td>${tempCustomer.email}</td>
-            </tr>
-        </c:forEach>
+    <c:forEach var="tempCustomer" items="${customers}">
+        <tr>
+            <td>${tempCustomer.firstName}</td>
+            <td>${tempCustomer.lastName}</td>
+            <td>${tempCustomer.email}</td>
+        </tr>
+    </c:forEach>
     </tbody>
 </table>
 </body>

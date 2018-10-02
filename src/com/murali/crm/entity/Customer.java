@@ -6,7 +6,7 @@ import javax.persistence.*;
  * @author muralinutalapati
  */
 @Entity
-@Table(name = "customer")
+@Table(name = "customer_crm")
 public class Customer {
 
   @Id
