@@ -17,6 +17,7 @@
         <h1>Customer relationship manager</h1>
     </div>
 </div>
+<input type="button" value="Add customer" onclick="window.location.href='showFormForAdd';return false;"/>
 <table>
     <thead>
     <tr>
