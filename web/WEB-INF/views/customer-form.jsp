@@ -19,17 +19,18 @@
 </div>
 
 <form:form action="saveCustomer" modelAttribute="customer" method="post">
+    <form:hidden path="id" />
     <div>
-        <label for="firstName">First Name: </label>
-        <input type="text" id="firstName" name="firstName" />
+        <form:label path="firstName" />
+        <form:input path="firstName" />
     </div>
     <div>
-        <label for="lastName">Last Name: </label>
-        <input type="text" id="lastName" name="lastName" />
+        <form:label path="lastName" />
+        <form:input path="lastName" />
     </div>
     <div>
-        <label for="email">First Name: </label>
-        <input type="text" id="email" name="email" />
+        <form:label path="email" />
+        <form:input path="email" />
     </div>
     <button type="submit">Submit</button>
     <a href="${pageContext.request.contextPath}/customer/list">Back to List</a>
