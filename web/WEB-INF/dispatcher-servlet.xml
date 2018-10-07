@@ -13,12 +13,12 @@
 		http://www.springframework.org/schema/mvc
 		http://www.springframework.org/schema/mvc/spring-mvc.xsd
 		http://www.springframework.org/schema/aop
-		http://www.springframework.org/schema/mvc/spring-aop.xsd
+		http://www.springframework.org/schema/aop/spring-aop.xsd
 		http://www.springframework.org/schema/tx
 		http://www.springframework.org/schema/tx/spring-tx.xsd">
 
     <!--Add support for aop-->
-    <aop:aspectj-autoproxy />
+    <aop:aspectj-autoproxy/>
 
     <!-- Add support for conversion, formatting and validation support -->
     <mvc:annotation-driven/>
